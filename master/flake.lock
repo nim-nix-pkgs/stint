@@ -85,19 +85,17 @@
         "stew-master": "stew-master"
       },
       "locked": {
-        "dir": "nimpkgs/s/stew",
-        "lastModified": 1647065826,
-        "narHash": "sha256-r66No5mwEjm2Re2M0CQATyr5WM0Bb4+zjhJE7WoXqWE=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "8c681972a7fc4cdac7e98587f60b0b55ea9db44c",
+        "lastModified": 1647112859,
+        "narHash": "sha256-IqFmrFBqW0b3JTb+UD4ZSbMxzcgFYImfTZw1+L7PmUI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "stew",
+        "rev": "bb28061c064b4fa3a05cbeaf0e1a61c00995043a",
         "type": "github"
       },
       "original": {
-        "dir": "nimpkgs/s/stew",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "stew",
         "type": "github"
       }
     },
@@ -114,13 +112,20 @@
         "src-stew-master": "src-stew-master"
       },
       "locked": {
-        "narHash": "sha256-52/QMFBd9HGgaVmt3S2tbzVqBNC7njyvxcQOi4wauXw=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647112859,
+        "narHash": "sha256-IqFmrFBqW0b3JTb+UD4ZSbMxzcgFYImfTZw1+L7PmUI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "stew",
+        "rev": "bb28061c064b4fa3a05cbeaf0e1a61c00995043a",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "stew",
+        "type": "github"
       }
     }
   },
