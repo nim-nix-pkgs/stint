@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-stint-master.flake = false;
+  inputs.src-stint-master.ref   = "refs/heads/master";
   inputs.src-stint-master.owner = "status-im";
-  inputs.src-stint-master.ref   = "master";
   inputs.src-stint-master.repo  = "nim-stint";
   inputs.src-stint-master.type  = "github";
   
