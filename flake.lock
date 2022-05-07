@@ -36,8 +36,7 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-stint-master": "src-stint-master",
-        "stew": "stew"
+        "stint-master": "stint-master"
       }
     },
     "src-stew-master": {
@@ -77,20 +76,22 @@
     "stew": {
       "inputs": {
         "flakeNimbleLib": [
+          "stint-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "stint-master",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918478,
-        "narHash": "sha256-wiBtwRip0VLMYncSUDT8eXhLiHv8FIKGbWLLYkcjBOM=",
+        "lastModified": 1651556064,
+        "narHash": "sha256-Rqk+ZX1Clc1m3ga3qxlWzceab1Zr/OvgTnJDlFFj9HI=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "889d0cefb3c565138000d466af4162c6b4adb91e",
+        "rev": "3d2c28ba37141ba481091b2884e3b3988778efa1",
         "type": "github"
       },
       "original": {
@@ -98,6 +99,34 @@
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
+        "type": "github"
+      }
+    },
+    "stint-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-stint-master": "src-stint-master",
+        "stew": "stew"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556846,
+        "narHash": "sha256-fJSZf+xjyejXUw3y6ihnK08Dw7O8Krl5OI48McSByCM=",
+        "owner": "nim-nix-pkgs",
+        "repo": "stint",
+        "rev": "8d69765d5c02f800f3d6a7edf643d251feb67039",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "stint",
         "type": "github"
       }
     }
